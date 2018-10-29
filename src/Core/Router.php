@@ -43,7 +43,7 @@ class Router
                 call_user_func_array([
                     $controller,
                     $actionName
-                ], $_GET);
+                ], $params);
                 //$controller->$actionName();
             }
         }

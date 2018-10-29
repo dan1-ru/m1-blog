@@ -11,7 +11,8 @@ class MainController {
      *
      * @return void
      */
-    public function actionIndex() {
+    public function actionIndex() 
+    {
         View::render('main/index');
     }
 
